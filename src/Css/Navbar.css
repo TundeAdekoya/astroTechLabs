@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    padding: 50px 0px;
+    align-items: center;
+    position: sticky;
+}
+
+#logo-img{
+    width: 6%;
+    padding-left: 50px;
+}
+
+#logo-img img{
+    width: 65%;
+}
+
+#nav-link{
+    margin-left: auto;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 16px;
+}
+
+.navStyle{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.navStyle:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+#nav-link button{
+    padding: 21px 51px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+#nav-link button:hover{
+    background-image: var(--gradient);
+    color: var(--white);
+}
+
+
