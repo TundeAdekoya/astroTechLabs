@@ -1,0 +1,91 @@
+main{
+    margin: 30px 50px;
+}
+
+section #moving-images{
+    display: flex;
+    flex-direction: column;
+    z-index: -2;
+}
+
+#moving-images img:first-child{
+    width: 5%;
+    margin-left: auto;
+}
+
+#moving-images img:nth-child(2){
+    width: 7%;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+#moving-images img:nth-child(3){
+    width: 3%;
+    margin-left: auto;
+    margin-right: 20vw;
+    margin-top: 70px;
+}
+
+#moving-images img:nth-child(4){
+    width: 6%;
+    margin-right: auto;
+    margin-left: 20vw;
+    margin-top: 100px;
+}
+
+
+#moving-images img {
+    animation: moving-images-spin infinite 20s linear;
+}
+
+
+@keyframes moving-images-spin {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(360deg);
+}
+} 
+
+section #landing-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 95vh;
+}
+
+#landing-content h1{
+    font-size: 90px;
+    font-family: 'FONTSPRING DEMO - Prettywise SemiBold';
+    padding: 0px 250px 0px 250px;
+    text-align: center;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#landing-content h3{
+    color: var(--white);
+    font-weight: 300;
+    letter-spacing: 2px;
+    position: relative;
+    bottom: 10vh;
+}
+
+#landing-content button {
+    position: relative;
+    bottom: 5vh;
+    padding: 21px 51px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+#landing-content button:hover{
+    background-image: var(--gradient);
+    color: var(--white);
+}

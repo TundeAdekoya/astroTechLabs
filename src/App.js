@@ -13,7 +13,7 @@ function App() {
         <Route path='/Report' exact element = {<ReportPage/>}/>
         <Route path='*' exact element = {<PageNotFound/>}/>
       </Routes>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }
