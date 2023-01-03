@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../Css/LandingPage.css'
 import movingImage1 from '../Assets/svg/moving image1.svg'
 import movingImage2 from '../Assets/svg/moving image2.svg'
 import movingImage3 from '../Assets/svg/moving image3.svg'
 import movingImage4 from '../Assets/svg/moving image4.svg'
+import {IoIosArrowRoundForward} from 'react-icons/io'
 
 const LandingPage = () => {
   return (
@@ -93,6 +95,70 @@ const LandingPage = () => {
         </div>
         </div>
       </section>
+
+    {/* SUBSCRIBE */}
+    <section>
+      <div id="subscribe">
+        <div id="subscribe-content">
+          <h3>Stay up to date with research</h3>
+          <form action="/url" method="GET">
+            <input type='email' placeholder="Enter your email" />
+            <button type="submit">Subscribe</button> 
+          </form>
+        </div>
+      </div>
+    </section>
+
+    {/* CAREER */}
+    <section>
+      <div id="career">
+        <div id="career-content">
+          <h3>Careers</h3>
+          <div id="career-list">
+            <div className="careers">
+              <h4>Senior Software Developer / Remote</h4>
+              <p>Full-Time</p>
+              <p>Los Angeles, California</p>
+              <p>United States</p>
+            </div>
+            <div className="careers">
+              <h4>Senior Software Developer / Onsite</h4>
+              <p>Full-Time</p>
+              <p>Los Angeles, California</p>
+              <p>United States</p>
+            </div>
+            <div className="careers">
+              <h4>Junior UX Designer / Onsite</h4>
+              <p>Part-Time</p>
+              <p>London, England</p>
+              <p>United Kingdom</p>
+            </div>
+            <div className="careers">
+              <h4>Junior Product Designer / Remote</h4>
+              <p>Full-Time</p>
+              <p>London, England</p>
+              <p>United Kingdom</p>
+            </div>
+            <div className="viewmore">
+              <Link to='*' id='viewmore-link'>
+                <h5>View More <IoIosArrowRoundForward/></h5>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {/* Let build together */}
+    <section>
+      <div id="build">
+        <div id="build-content">
+          <h2>Let’s build together</h2>
+          <h3>Talk to our amazing community or team to learn more about how to Sequence your product.</h3>
+          <button>Contact Us</button>
+        </div>
+      </div>
+    </section>
     </div>
   )
 }

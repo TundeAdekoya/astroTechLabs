@@ -12,7 +12,7 @@ const navbar = () => {
     <section id='nav-link'>
         <NavLink className='navStyle' to='*'>Launch Pad</NavLink>
         <NavLink className='navStyle' to='*'>Our Mission</NavLink>
-        <NavLink className='navStyle' to='/Report'>Research</NavLink>
+        <NavLink className='navStyle' to='/Report'>Report</NavLink>
         <NavLink className='navStyle' to='*'>Career</NavLink>
         <NavLink to='*'><button>Contact</button></NavLink>
     </section>
