@@ -36,16 +36,49 @@ nav{
 #nav-link button{
     padding: 21px 51px;
     font-size: 16px;
-    border-radius: 10px;
     border: none;
-    background-color: var(--white);
+    /* border-image: linear-gradient(to right, #A1B9FF, #CDA3FF) 1; */
+    background-color: var(--white-opacity);
+    opacity: 10.7px;
     cursor: pointer;
-    font-weight: 600;
+    /* font-weight: 600; */
+    color: var(--white);
+    border-radius: 10px;
+
+    --b:1px;  /* border width*/
+    display: inline-block;
+    margin: 10px;
+    height: 10vh;
+    width: 14vw;
+    aspect-ratio: 1;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+#nav-link button:before{
+    /* background-image: var(--gradient); */
+
+    content:"";
+    position:absolute;
+    z-index:-1;
+    inset: 0;
+    background: var(--gradient);
+    padding: var(--b);
+    border-radius: 10px;
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+            mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
 }
 
 #nav-link button:hover{
     background-image: var(--gradient);
-    color: var(--white);
 }
 
 

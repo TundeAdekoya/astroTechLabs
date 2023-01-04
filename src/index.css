@@ -1,6 +1,7 @@
 :root{
   --black:#1a1a1a;
   --white:#fff;
+  --white-opacity:rgba(255, 255, 255, 0.088);
   --gradient:linear-gradient(to right, #A1B9FF, #CDA3FF);
 }
 

@@ -27,7 +27,7 @@ const Footer = () => {
               <tr>
                 <td><Link to='*' className='detail-font'>Lauchpad</Link></td>
                 <td><Link to='*' className='detail-font'>Our mission</Link></td>
-                <td><Link to='*' className='detail-font'>Report</Link></td>
+                <td><Link to='/Report' className='detail-font'>Report</Link></td>
                 <td><Link to='*' className='detail-font'>Career</Link></td>
               </tr>
             </table>
@@ -77,7 +77,7 @@ const Footer = () => {
         </section>
         <section id='footer-icon-link'>
           <div>
-            <NavLink to='*' id='footer-link'>@AstroTech Labs 2022</NavLink>
+            <NavLink to='/' id='footer-link'>@AstroTech Labs 2022</NavLink>
           </div>
           <aside id='footer-links'>
             <div>

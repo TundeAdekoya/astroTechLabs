@@ -1,0 +1,32 @@
+#notfound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#notfound-image{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#notfound-image img{
+    width: 15%;
+    animation: moving-images-spin infinite 15s linear;
+}
+
+#notfound-text{
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px var(--white) solid;
+    margin: 30px 0px 75px 0px;
+    padding-top: 20px;
+    font-family: 'FONTSPRING DEMO - Prettywise SemiBold';
+    font-size: 28px;
+    color: var(--white);
+}

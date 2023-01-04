@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import '../Css/LandingPage.css'
 import movingImage1 from '../Assets/svg/moving image1.svg'
 import movingImage2 from '../Assets/svg/moving image2.svg'
@@ -27,37 +27,40 @@ const LandingPage = () => {
         </section>
       </main>
 
-      <section id='what-we-do'>
-        <div className="what-we-do-content">
-          <h2>What we do</h2>
-          <div id='what-we-do-box'>
-              <div className="what-we-do-image">
-                <div className="what-we-do-text">
-                  <h3>Build as a service</h3>
-                </div>
-              </div>
-              <div className="what-we-do-image">
-                <div className="what-we-do-text">
-                  <h3>Solution Development</h3>
-                </div>
-              </div>
-            </div>
+      <Link to='/Report' id='viewmore-link'>
+        <section id='what-we-do'>
+          <div className="what-we-do-content">
+            <h2>What we do</h2>
             <div id='what-we-do-box'>
-              <div className="what-we-do-image-two">
-                <div className="what-we-do-text">
-                  <h3>Technomics Research</h3>
+                <div className="what-we-do-image">
+                  <div className="what-we-do-text">
+                    <h3>Build as a service</h3>
+                  </div>
+                </div>
+                <div className="what-we-do-image">
+                  <div className="what-we-do-text">
+                    <h3>Solution Development</h3>
+                  </div>
                 </div>
               </div>
-              <div className="what-we-do-image-two">
-                <div className="what-we-do-text">
-                  <h3>Innovative Report</h3>
+              <div id='what-we-do-box'>
+                <div className="what-we-do-image-two">
+                  <div className="what-we-do-text">
+                    <h3>Technomics Research</h3>
+                  </div>
+                </div>
+                <div className="what-we-do-image-two">
+                  <div className="what-we-do-text">
+                    <h3>Innovative Report</h3>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-      </section>
+        </section>
+      </Link>
 
       {/* REPORT */}
+      <Link to='/Report' id='viewmore-link'>
       <section id='innovative-report'>
         <div id="innovative-report-content">
         <h2>Innovative Report</h2>
@@ -95,6 +98,7 @@ const LandingPage = () => {
         </div>
         </div>
       </section>
+      </Link>
 
     {/* SUBSCRIBE */}
     <section>
