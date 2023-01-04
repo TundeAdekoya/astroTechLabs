@@ -90,7 +90,7 @@
 }
 
 .report-content h2{
-    font-family: 'FONTSPRING DEMO - Prettywise SemiBold';
+    font-family: 'prettywise-semibold';
     font-size: 32px;
     color: var(--white);
     text-decoration: underline;

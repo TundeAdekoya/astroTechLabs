@@ -5,9 +5,18 @@
   --gradient:linear-gradient(to right, #A1B9FF, #CDA3FF);
 }
 
+@font-face {
+  font-family: 'Satoshi-Variable';
+  src:  url('../public/Satoshi-Variable.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'prettywise-semibold';
+  src:  url('../public/prettywise-semibold.otf') format('truetype');
+}
+
 body {
   margin: 0;
-  font-family: 'Satoshi', 'FONTSPRING DEMO - Prettywise SemiBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Satoshi', 'Prettywise SemiBold', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

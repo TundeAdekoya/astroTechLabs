@@ -58,7 +58,7 @@ section #landing-content{
 
 #landing-content h1{
     font-size: 90px;
-    font-family: 'FONTSPRING DEMO - Prettywise SemiBold';
+    font-family: 'prettywise-semibold';
     padding: 0px 250px 0px 250px;
     text-align: center;
     background: var(--gradient);
@@ -105,7 +105,7 @@ section #landing-content{
 }
 
 .what-we-do-content h2{
-    font-family: 'FONTSPRING DEMO - Prettywise SemiBold';
+    font-family: 'prettywise-semibold';
     font-size: 32px;
     color: var(--white);
     text-decoration: underline;
@@ -179,7 +179,7 @@ section #landing-content{
 }
 
 #innovative-report-content h2, #career-content h3{
-    font-family: 'FONTSPRING DEMO - Prettywise SemiBold';
+    font-family: 'prettywise-semibold';
     font-size: 32px;
     color: var(--black);
     text-decoration: underline;
@@ -279,7 +279,7 @@ section #landing-content{
 }
 
 #subscribe-content h3{
-    font-family: 'FONTSPRING DEMO - Prettywise SemiBold';
+    font-family: 'prettywise-semibold';
     font-size: 32px;
     color: var(--black);
 }
@@ -338,7 +338,7 @@ section #landing-content{
 }
 
 #build-content h2{
-    font-family: 'FONTSPRING DEMO - Prettywise SemiBold';
+    font-family: 'prettywise-semibold';
     font-size: 32px;
     color: var(--white);
 }
