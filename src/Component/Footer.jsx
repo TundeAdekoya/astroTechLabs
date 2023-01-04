@@ -27,7 +27,7 @@ const Footer = () => {
               <tr>
                 <td><Link to='*' className='detail-font'>Lauchpad</Link></td>
                 <td><Link to='*' className='detail-font'>Our mission</Link></td>
-                <td><Link to='*' className='detail-font'>Research</Link></td>
+                <td><Link to='*' className='detail-font'>Report</Link></td>
                 <td><Link to='*' className='detail-font'>Career</Link></td>
               </tr>
             </table>

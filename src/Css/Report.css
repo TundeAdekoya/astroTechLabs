@@ -1,0 +1,217 @@
+#header{
+    background-color: var(--black);
+}
+
+#header section{
+    margin: 50px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#header-content{
+    background: linear-gradient(rgba(0, 0, 0, 0.095), rgba(0, 0, 0, 0.769)), url("../Assets/jpeg/re1.jpg");
+    width: 44vw;
+    height: 85vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#header-content:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.897)), url("../Assets/jpeg/re1.jpg");
+}
+
+#sub-header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#sub-header .sub-header-content-one{
+    background: linear-gradient(rgba(0, 0, 0, 0.095), rgba(0, 0, 0, 0.769)), url("../Assets/jpeg/re2.jpg");
+    width: 44vw;
+    height: 40vh;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: auto;
+}
+
+#sub-header .sub-header-content-one:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.897)), url("../Assets/jpeg/re2.jpg");
+}
+
+#sub-header .sub-header-content-two{
+    background: linear-gradient(rgba(0, 0, 0, 0.095), rgba(0, 0, 0, 0.769)), url("../Assets/jpeg/re3.jpg");
+    width: 44vw;
+    height: 43vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#sub-header .sub-header-content-two:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.897)), url("../Assets/jpeg/re3.jpg");
+}
+
+#header-title{
+    margin-top: 60vh;
+    padding: 0px 30px 0px 30px;
+    color: var(--white);
+}
+
+#header-body{
+    border-top: 2px var(--white) solid;
+    margin: 0px 30px 0px 30px;
+    
+}
+
+#header-body p{
+    color: var(--white);
+}
+
+#header-body p b{
+    color: #9a9a9a;
+}
+
+.sub-header-content-one h3, .sub-header-content-two h3{
+    margin-top: 20vh;
+    padding: 0px 30px 0px 30px;
+    color: var(--white);
+}
+
+/* WEB 3 - */
+#report-new{
+    margin-top: 100px;
+    background: linear-gradient(180deg, #1A1A1A 75%, #fff 75%);
+}
+
+.report-content{
+    padding: 0px 50px;
+}
+
+.report-content h2{
+    font-family: 'FONTSPRING DEMO - Prettywise SemiBold';
+    font-size: 32px;
+    color: var(--white);
+    text-decoration: underline;
+    text-underline-offset: 10px
+}
+
+#report-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.report-content-image:nth-child(1){
+    width: 44vw;
+    height: 70vh;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.095), rgba(0, 0, 0, 0.769)), url("../Assets/jpeg/re4.jpg");
+}
+
+.report-content-image:nth-child(1):hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.897)), url("../Assets/jpeg/re4.jpg");
+}
+
+.report-content-image:nth-child(2){
+    width: 44vw;
+    height: 70vh;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.095), rgba(0, 0, 0, 0.769)), url("../Assets/jpeg/re5.jpg");
+}
+
+.report-content-image:nth-child(2):hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.897)), url("../Assets/jpeg/re5.jpg");
+}
+
+.report-content-text, .report-content-text-two{
+    margin-top: 45vh;
+    padding: 0px 30px 0px 30px;
+    color: var(--white);
+}
+
+.report-content-text-body, .report-content-text-body-two{
+    border-top: 2px var(--white) solid;
+}
+
+.report-content-text-body b, .report-content-text-body-two b{
+    color: #9a9a9a;
+}
+
+.report-content-image-two:nth-child(1){
+    width: 44vw;
+    height: 70vh;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.095), rgba(0, 0, 0, 0.769)), url("../Assets/jpeg/re6.jpg");
+    box-shadow: 0px 10px 15px 0px #9a9a9a;
+}
+
+.report-content-image-two:nth-child(1):hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.897)), url("../Assets/jpeg/re6.jpg");
+}
+
+.report-content-image-two:nth-child(2){
+    width: 44vw;
+    height: 70vh;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    cursor: pointer;
+    background: linear-gradient(rgba(0, 0, 0, 0.095), rgba(0, 0, 0, 0.769)), url("../Assets/jpeg/re7.jpg");
+    box-shadow: 0px 10px 15px 0px #9a9a9a;
+}
+
+.report-content-image-two:nth-child(2):hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.897)), url("../Assets/jpeg/re7.jpg");
+}
+
+
+/* OLDER REPORT */
+.report-image-box{
+    width: 44vw;
+    height: 60vh;
+    border-radius: 10px;
+    margin-bottom: 45px;
+    cursor: pointer;
+}
+
+.report-image-box:nth-child(1){
+    background: linear-gradient(rgba(0, 0, 0, 0.095), rgba(0, 0, 0, 0.769)), url("../Assets/jpeg/re8.jpg");
+
+}
+.report-image-box:nth-child(1):hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.897)), url("../Assets/jpeg/re8.jpg");
+
+}
+.report-image-box:nth-child(2){
+    background: linear-gradient(rgba(0, 0, 0, 0.095), rgba(0, 0, 0, 0.769)), url("../Assets/jpeg/re9.jpg");
+
+}
+.report-image-box:nth-child(2):hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.897)), url("../Assets/jpeg/re9.jpg");
+
+}
+.report-image-box:nth-child(3){
+    background: linear-gradient(rgba(0, 0, 0, 0.095), rgba(0, 0, 0, 0.769)), url("../Assets/jpeg/re10.jpg");
+
+}
+.report-image-box:nth-child(3):hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.295), rgba(0, 0, 0, 0.897)), url("../Assets/jpeg/re10.jpg");
+
+}
+
+#blank{
+    height: 15vh;
+    background-color: var(--white);
+}
+#blank-two{
+    height: 15vh;
+}
