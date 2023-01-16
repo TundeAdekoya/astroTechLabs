@@ -92,3 +92,41 @@ table tr {
     -webkit-mask-composite: xor;
             mask-composite: exclude;
 }
+
+/* RESPONSIVITY */
+
+@media(max-width:1440px){
+
+}
+
+@media(max-width:1024px){
+
+} 
+
+@media(max-width:991px){
+    footer section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer-logo, #image-footer-two{
+        display: none;
+    }
+
+    #footer-icon-link {
+        margin-top: 30px;
+        align-items: flex-start;
+    }
+
+    #footer-links{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+
+}
+
+@media(max-width:480px){
+    
+}

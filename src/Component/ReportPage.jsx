@@ -3,7 +3,7 @@ import '../Css/Report.css'
 
 const ReportPage = () => {
   return (
-    <div>
+    <div id='reportPage'>
       <header id='header'>
         <section>
           <div id="header-content">

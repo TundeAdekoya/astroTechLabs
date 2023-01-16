@@ -30,3 +30,21 @@
     font-size: 28px;
     color: var(--white);
 }
+
+/* RESPONSIVITY */
+
+@media(max-width:1440px){
+
+}
+
+@media(max-width:1024px){
+
+}
+
+@media(max-width:768px){
+
+}
+
+@media(max-width:480px){
+
+}

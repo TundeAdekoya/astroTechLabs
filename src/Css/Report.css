@@ -1,3 +1,7 @@
+#reportPage{
+    padding-top: 150px;
+}
+
 #header{
     background-color: var(--black);
 }
@@ -215,4 +219,59 @@
 }
 #blank-two{
     height: 15vh;
+}
+
+/* RESPONSIVITY */
+
+@media(max-width:1440px){
+
+}
+
+@media(max-width:1024px){
+
+}
+
+@media(max-width:991px){
+    #header section{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #header-content{
+        width: 70vw;
+        height: 85vh;
+    }
+
+    #sub-header .sub-header-content-one, #sub-header .sub-header-content-two{
+        width: 70vw;
+        height: 50vh;
+    }
+
+    #report-box{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .report-content h2, #innovative-report h2{
+        font-size: 24px;
+    }
+
+    .report-content-image:nth-child(1), .report-content-image:nth-child(2), .report-content-image-two:nth-child(1), .report-content-image-two:nth-child(2){
+        width: 70vw;
+        height: 70vh;
+    }
+
+    .report-image-box{
+        width: 70vw;
+    }
+}
+
+@media(max-width:768px){
+
+}
+
+@media(max-width:480px){
+    .report-image-box{
+        height: 60vh;
+    }
 }

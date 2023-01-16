@@ -9,21 +9,22 @@ import {IoIosArrowRoundForward} from 'react-icons/io'
 
 const LandingPage = () => {
   return (
-    <div>
+    <div id='landing' >
 
       <main>
-        <section>
+        <section id='landing-page'>
           <div id='moving-images'>
             <img src={movingImage1} alt="" />
             <img src={movingImage2} alt="" />
             <img src={movingImage3} alt="" />
             <img src={movingImage4} alt="" />
           </div>
+
           <div id='landing-content'>
-            <h1>Shaping the future of Web 3</h1>
-            <h3>A Blockchain Venture Studio</h3>
-            <button> Get in touch </button>
-          </div>
+              <h1>Shaping the future of Web 3</h1>
+              <h3>A Blockchain Venture Studio</h3>
+              <button> Get in touch </button>
+            </div>
         </section>
       </main>
 

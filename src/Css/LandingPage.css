@@ -1,3 +1,7 @@
+#landing{
+    padding-top: 150px;
+}
+
 main{
     margin: 30px 50px;
 }
@@ -48,6 +52,7 @@ to {
 }
 } 
 
+
 section #landing-content{
     display: flex;
     flex-direction: column;
@@ -65,7 +70,7 @@ section #landing-content{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
-    bottom: 30vh;
+    bottom: 40vh;
 }
 
 #landing-content h3{
@@ -364,4 +369,140 @@ section #landing-content{
 #build-content button:hover{
     background-image: var(--gradient);
     color: var(--white);
+}
+
+/* RESPONSIVITY */
+
+@media(max-width:1440px){
+    #landing-content h1{
+        /* display: none; */
+        font-size: 60px;
+    }
+
+    #landing-content h3{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:1024px){
+    #landing-content h1{
+        bottom: 35vh;
+        font-size: 50px;
+        padding: 0px 50px 0px 50px;
+    }
+
+    #landing-content h3{
+        bottom: 30vh;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+
+    #landing-content button {
+        position: absolute;
+        bottom: 15vh;
+    }
+}
+
+/* ----------------------------------------- */
+
+@media(max-width:991px){
+
+    /* WHAT WE DO */
+
+    #what-we-do-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .what-we-do-content h2, #innovative-report-content h2, #career-content h3, #subscribe-content h3, #build-content h2{
+        font-size: 24px;
+    }
+
+    .what-we-do-image, .what-we-do-image-two{
+        width: 70vw;
+        height: 60vh;
+        border-radius: 10px;
+        margin-bottom: 45px;
+    }
+
+    /* REPORT */
+
+    #report{
+        flex-direction: column;
+    }
+
+    .report-image{
+        width: 70vw;
+        height: 60vh;
+    }
+
+    /* SUBSCRIBE */
+
+    #subscribe-content form{
+        width: 90vw;
+        height: 9vh;
+    }
+
+    #subscribe-content form button{
+        padding: 0px 30px;
+    }
+
+    /* CAREER */
+
+    #career-list{
+        margin-top: 30px;
+        gap: 30px;
+    }
+
+    #career-list .careers{
+        padding: 10px 30px;
+        font-size: 14px;
+        height: 6vh;
+        gap: 2%;
+    }
+
+    #career-list .viewmore{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* BUILD */
+
+    #build-content{
+        margin: 50px 0vw;
+    }
+
+    #build-content h3{
+        width: 40vw;
+    }
+
+    #build-content button{
+        padding: 15px 30px;
+    }
+
+}
+
+@media(max-width:768px){
+    #landing-content h1{
+        bottom: 30vh;
+        font-size: 40px;
+    }
+
+    #landing-content h3{
+        bottom: 25vh;
+        font-size: 16px;
+        padding: 20px 30px 0px 30px;
+        text-align: center;
+    }
+}
+
+@media(max-width:480px){
+    #landing-content h1{
+        /* display: none; */
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
 }
