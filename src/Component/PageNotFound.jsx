@@ -4,7 +4,7 @@ import movingImage1 from '../Assets/svg/moving image1.svg'
 
 const PageNotFound = () => {
   return (
-    <div>
+    <div id='notfound404'>
       <main id='notfound'>
         <div id='notfound-image'>
           <img src={movingImage1} alt="" />
